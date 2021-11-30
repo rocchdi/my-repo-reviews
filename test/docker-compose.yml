@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  api:
+    image: rocchdi/apipredict:1.0.1 
+    container_name: my_api_container
+    networks:
+      - my_network 
+    ports:
+      - target: 8000
+        published: 8000 
+        protocol: tcp
+        mode: host
+  my_predict_test:
+    image: my_test1_image
+    container_name: my_test1_container
+    networks:
+      - my_network 
+    restart: on-failure
+    depends_on:
+      - api
+
+networks:
+  my_network:
+
