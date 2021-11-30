@@ -2,6 +2,7 @@ import os
 import requests
 import json
 
+
 api_address='my_api_container'
 # port de l'API
 api_port = 8000
@@ -64,7 +65,7 @@ if (test_status == 'SUCCESS'): #api fonctionne
 
     output = '''
 ============================
-Authentication test: requete1 permissions
+predict  test1: request complet de l 'api sur le modele BOW_Regression 
 ============================
 
 request done at "/predict"
