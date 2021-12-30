@@ -31,13 +31,18 @@ To test the API: redirect the port 8000, and use the url :
 ```
 http://localhost:8000/docs
 ```
+Login , password
+```
+Login : administrateur
+password : password
 
+```
 Choose the endpoint : /predict
 you can use the following parameters :
 ```
 model: BOW_Regression
 sentence: hello disney
-authorization-header: Basic alice:wonderland
+
 ```
 
 you can also check the other endpoints :
