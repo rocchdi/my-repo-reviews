@@ -31,7 +31,7 @@ To test the API: redirect the port 8000, and use the url :
 ```
 http://localhost:8000/docs
 ```
-Login , password
+You can log in with :
 ```
 Login : administrateur
 password : password
