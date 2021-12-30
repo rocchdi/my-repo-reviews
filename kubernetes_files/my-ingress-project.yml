@@ -1,0 +1,10 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-project-ingress
+spec:
+  defaultBackend:
+    service:
+      name: my-project-service
+      port:
+        number: 8001
