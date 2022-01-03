@@ -86,15 +86,15 @@ def get_current_username(credentials: HTTPBasicCredentials = Depends(security)):
 # 4 model_tfidf_randomf:  algo tfidf avec RandomForest
 #source : https://colab.research.google.com/drive/1GFV6UyaiXWuc3U9cniKeaXAAi4V7y6Kr#scrollTo=If9v0jCDEFKF
 
-model1 = load('joblib_files/model_bow_regression.joblib')
-model2 = load('joblib_files/model_tfidf_regression.joblib')
-model3 = load('joblib_files/model_bow_randomf.joblib')
-model4 = load('joblib_files/model_tfidf_randomf.joblib')
+model1 = load('model_bow_regression.joblib')
+model2 = load('model_tfidf_regression.joblib')
+model3 = load('model_bow_randomf.joblib')
+model4 = load('model_tfidf_randomf.joblib')
 
 
 #lecture du vocabulaire calcule avec CountVectorizer ou TfidfVectorizer
-CountVec = load('joblib_files/CountVec.joblib')
-vect = load('joblib_files/vec.joblib')
+CountVec = load('CountVec.joblib')
+vect = load('vec.joblib')
 
 
 #lecture du fichier classification report du modele "model_bow_regression" dans le dataframe df_scores 
