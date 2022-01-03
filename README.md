@@ -70,7 +70,7 @@ ssh -i data_enginering_machine.pem  -L 80:192.168.49.2:80 ubuntu@<YOUR_IP_MACHIN
 
 connect the API with your navigator : 
 ```
-http://localhost:80/docs
+http://localhost:8000/docs
 ```
 
 
