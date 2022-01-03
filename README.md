@@ -9,7 +9,7 @@ the API used a Basic authentication (will be using a BAsic base64 encoded passwo
 # The Fast API image
 The FAst API image is already created and puched to the DockerHub repository : 
 ```
-rocchdi/apipredict:1.0.1
+arnaud12pi/apipredict:1.0.1
 ```
 You can check the Dockerfile of the API and the requirements.txt used to create the image
 You can also check the API code (main.py)
@@ -22,10 +22,10 @@ create a new python virtual environment, install the requirements :
 ```
 pip install -r requirements.txt
 ```
-Copy  all the .py files (the code), the .project files (prediction models), the vect.tfidf and countvec.bow files (vocabularies files)
+Copy  all files in the projet root , the .py files (the code), the .joblib files (prediction models), the vect.joblib and countvec.joblib files (vocabularies files)
 and also the .csv file (classification report) in your machine. To run the API : 
 ```
-uvicorn main:apiprediction --relaod
+uvicorn main:apiprediction --reload
 ```
 To test the API: redirect the port 8000, and use the url :
 ```
