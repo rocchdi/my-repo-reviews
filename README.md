@@ -47,8 +47,11 @@ sentence: hello disney
 
 you can also check the other endpoints :
 ```
-/report : to view the classification report from the BOW model
-/batch  : to predict sentiment from  a csv file (not implemented yet)
+/home : Welcome message function
+/report : to view the classification report from the model
+/report/relance : Function that relaunches the training of models for a vérification
+/enregistrement  : to predict sentiment from csv file (1 column with one sentence per line)
+
 ```
 
 
