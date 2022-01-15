@@ -87,5 +87,5 @@ setup.sh
 it contains the cammands that allow you  create the docker test image and run docker-compose.
 The test implemented is  a complete request to the /predict endpoint. It displays a SUCESS status if it receives the http code 200.
 In the docker-compose the test container should run after the API. We use a restart on failure to run the test when the api is not ready.
-Other tests will be implemented soon.
+
 
