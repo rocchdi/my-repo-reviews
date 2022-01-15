@@ -53,7 +53,7 @@ you can also check the other endpoints :
 /home : Welcome message function
 /report : to view the classification report from the model
 /enregistrement  : to predict sentiment from a csv file (1 column with one sentence per line)
-/report/relance : Function that relaunches the training of models (please do not run this option : it is for Administrators only)
+/report/relance : Function that relaunches the training of models and displays the report scores (please do not run this option : it is for Administrators only)
 
 ```
 
