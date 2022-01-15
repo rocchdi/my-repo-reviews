@@ -1,8 +1,8 @@
 FROM ubuntu:20.04
 
-ADD requirements.txt main.py  check_credentials.py ./
+ADD requirements.txt main.py  ./
 
-ADD model_tfidf_regression.projet model_bow_regression.projet model_bow_randomf.projet model_tfidf_randomf.projet ./
+ADD model_tfidf_regression.joblib model_bow_regression.joblib model_bow_randomf.joblib model_tfidf_randomf.joblib ./
 
 ADD CountVec.bow vec.tfidf ./
 
