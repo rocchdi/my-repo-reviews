@@ -37,9 +37,11 @@ Login : administrateur
 password : password
 
 ```
-Choose the endpoint : /predict
+Choose the endpoint : 
 ```
-you can use the following parameters :
+/predict
+```
+and you can use the following parameters :
 ```
 model: BOW_Regression
 sentence: hello disney
