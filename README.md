@@ -22,7 +22,7 @@ create a new python virtual environment, install the requirements :
 ```
 pip install -r requirements.txt
 ```
-Copy  all files in the projet root , the .py files (the code), the .joblib files (prediction models), the vect.joblib and countvec.joblib files (vocabularies files)
+Copy  all files in the projet root , the .py files (the code), the .joblib files (prediction models and vocabularies files)
 and also the .csv file (classification report) in your machine. To run the API : 
 ```
 uvicorn main:apiprediction --reload
