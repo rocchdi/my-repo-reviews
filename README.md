@@ -38,6 +38,7 @@ password : password
 
 ```
 Choose the endpoint : /predict
+```
 you can use the following parameters :
 ```
 model: BOW_Regression
@@ -49,8 +50,8 @@ you can also check the other endpoints :
 ```
 /home : Welcome message function
 /report : to view the classification report from the model
-/report/relance : Function that relaunches the training of models for a vérification
-/enregistrement  : to predict sentiment from csv file (1 column with one sentence per line)
+/enregistrement  : to predict sentiment from a csv file (1 column with one sentence per line)
+/report/relance : Function that relaunches the training of models (please do not run this option : it is for Administrators only)
 
 ```
 
