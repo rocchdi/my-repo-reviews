@@ -96,10 +96,6 @@ CountVec = load('CountVec.joblib')
 vect = load('vec.joblib')
 
 
-#lecture du fichier classification report du modele "model_bow_regression" dans le dataframe df_scores 
-# 
-df_report=pd.read_csv('classification_report.csv')
-df_report=df_report.iloc[:,1:]
 
 
 
