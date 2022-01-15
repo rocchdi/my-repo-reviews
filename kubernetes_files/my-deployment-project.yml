@@ -17,6 +17,6 @@ spec:
       containers:
       - name: my-project 
         imagePullPolicy: Always
-        image: rocchdi/apipredict:1.0.1
+        image: arnaud12pi/apipredict:1.0.1
         ports:
         - containerPort: 8000
