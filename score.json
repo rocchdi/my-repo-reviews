@@ -1,0 +1,10 @@
+{
+    "model": {
+        "Bow_Regression": 0.6061515378844711,
+        "TFIDF_Regression": 0.6052138034508627,
+        "BOW_RandomForest": 0.574549887471868,
+        "TFIDF_RandomForest": 0.5696736684171043
+
+		
+    }
+}
